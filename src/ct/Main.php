@@ -20,7 +20,7 @@ use pocketmine\utils\TextFormat as TF;
     }
     
     public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
-     switch($cmd->getName());
+     switch($cmd->getName()){
       case 'msg':
        $msg = $this->getConfig()->get("msg");
        $sender->sendMessage($msg);
