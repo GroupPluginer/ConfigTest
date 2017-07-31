@@ -27,6 +27,3 @@ use pocketmine\utils\TextFormat as TF;
        }
       }
      }
-      
-     
-    
